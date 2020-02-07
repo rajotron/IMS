@@ -1,3 +1,9 @@
+
+/*Create database named as 'ims'*/
+
+CREATE DATABASE ims;
+
+
 /*Create shopping centre table*/
 
 CREATE TABLE shoppingcentre(
