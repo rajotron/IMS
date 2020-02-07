@@ -17,7 +17,7 @@ git clone https://github.com/rajotron/IMS.git
 #### Step 2
 Get into the project directory and install all packages listed in package.json file at root. 
 ``` 
-cd pgHENCHMAN-Server 
+cd IMS 
 ```
 ``` 
 npm install 
