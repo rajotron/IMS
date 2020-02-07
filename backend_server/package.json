@@ -1,0 +1,24 @@
+{
+  "name": "backend_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.1.1",
+    "cors": "^2.8.5",
+    "date-fns": "^2.9.0",
+    "express": "^4.17.1",
+    "log4js": "^6.1.1",
+    "pg": "^7.18.1"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "supertest": "^4.0.2"
+  }
+}

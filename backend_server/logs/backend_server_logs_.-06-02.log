@@ -1,0 +1,49 @@
+[2020-02-06T23:42:22.986] [INFO] node_api - Middle ware ---------------------------------------------------  undefined undefined
+[2020-02-06T23:42:22.987] [INFO] node_api - Query -------  select * from shoppingcentre;
+[2020-02-06T23:42:22.995] [INFO] node_api - Tesing result --  [
+  {
+    id: 2,
+    name: 'Shipra Mall 233',
+    address: 'Ghaziabad',
+    created_at: 2020-02-06T13:44:25.901Z,
+    created_by: 'user1',
+    updated_at: null,
+    updated_by: null
+  },
+  {
+    id: 3,
+    name: 'Shipra Mall 44',
+    address: 'Ghaziabad',
+    created_at: 2020-02-06T13:44:25.912Z,
+    created_by: 'user2',
+    updated_at: 2020-02-06T14:04:33.672Z,
+    updated_by: 'user1'
+  },
+  {
+    id: 4,
+    name: 'Aditya Mall 49090',
+    address: 'Indir, Ghaziabad',
+    created_at: 2020-02-06T13:44:25.923Z,
+    created_by: 'user2',
+    updated_at: 2020-02-06T14:11:53.063Z,
+    updated_by: 'user2'
+  },
+  {
+    id: 5,
+    name: 'Aditya Mall 9011',
+    address: 'Ghaziabad',
+    created_at: 2020-02-06T13:44:25.934Z,
+    created_by: 'user2',
+    updated_at: 2020-02-06T14:16:59.106Z,
+    updated_by: 'user2'
+  },
+  {
+    id: 1,
+    name: 'Shipra Mall 11',
+    address: 'Vaibhav Khand I, Ghaziabad',
+    created_at: 2020-02-06T13:44:25.864Z,
+    created_by: 'user1',
+    updated_at: 2020-02-06T17:13:47.970Z,
+    updated_by: 'user2'
+  }
+]

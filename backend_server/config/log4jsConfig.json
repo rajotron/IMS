@@ -1,0 +1,15 @@
+{
+	"appenders": 
+	{ "node_api":{ 
+		"type": "dateFile", 
+		"filename": "./logs/backend_server_logs_",  
+		"reloadSecs": 3,
+		"pattern":"-dd-MM.log",
+		"alwaysIncludePattern":true
+		}
+	},
+	"categories": { 
+		"default": { "appenders": ["node_api"], "level": "all" }
+	}
+	
+}

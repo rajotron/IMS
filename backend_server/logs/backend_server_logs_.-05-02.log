@@ -1,0 +1,3319 @@
+[2020-02-05T14:11:46.383] [ERROR] node_api - Server is not responding
+[2020-02-05T14:12:55.996] [ERROR] node_api - Server is not responding
+[2020-02-05T15:21:31.672] [INFO] node_api - Body ----  {}
+[2020-02-05T15:21:31.676] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:21:31.683] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:21:31.685] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:24:36.251] [INFO] node_api - Body ----  {}
+[2020-02-05T15:24:36.251] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:24:36.251] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:24:36.252] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:24:36.454] [INFO] node_api - Body ----  {}
+[2020-02-05T15:24:36.455] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:24:36.455] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:24:36.456] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:25:28.619] [INFO] node_api - Body ----  {}
+[2020-02-05T15:25:28.619] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:25:28.620] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:25:28.620] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:25:30.342] [INFO] node_api - Body ----  {}
+[2020-02-05T15:25:30.342] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:25:30.343] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:25:30.344] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:29:35.949] [INFO] node_api - Body ----  {}
+[2020-02-05T15:29:35.949] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:29:35.950] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:29:35.951] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:29:36.743] [INFO] node_api - Body ----  {}
+[2020-02-05T15:29:36.747] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:29:36.747] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:29:36.749] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:30:40.520] [INFO] node_api - Body ----  {}
+[2020-02-05T15:30:40.520] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:30:40.520] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:30:40.523] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:30:40.834] [INFO] node_api - Body ----  {}
+[2020-02-05T15:30:40.834] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:30:40.834] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:30:40.836] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:31:00.338] [INFO] node_api - Body ----  {}
+[2020-02-05T15:31:00.338] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:31:00.339] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:31:00.339] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:31:10.809] [INFO] node_api - Body ----  {}
+[2020-02-05T15:31:10.809] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:31:10.810] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:31:10.811] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:31:26.668] [INFO] node_api - Body ----  {}
+[2020-02-05T15:31:26.668] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:31:26.668] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:31:26.669] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:31:27.206] [INFO] node_api - Body ----  {}
+[2020-02-05T15:31:27.206] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:31:27.207] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:31:27.209] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:34:06.678] [INFO] node_api - Body ----  {}
+[2020-02-05T15:34:06.678] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:34:06.678] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:34:06.679] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:34:07.724] [INFO] node_api - Body ----  {}
+[2020-02-05T15:34:07.725] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:34:07.725] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:34:07.727] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:35:08.948] [INFO] node_api - Body ----  {}
+[2020-02-05T15:35:08.948] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:35:08.948] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:35:08.949] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:44:33.491] [INFO] node_api - Body ----  {}
+[2020-02-05T15:44:33.491] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:44:33.493] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:44:33.499] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:44:34.109] [INFO] node_api - Body ----  {}
+[2020-02-05T15:44:34.114] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:44:34.114] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:44:34.116] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:47:04.355] [INFO] node_api - Body ----  {}
+[2020-02-05T15:47:04.355] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:47:04.355] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:47:04.356] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:47:46.329] [INFO] node_api - Body ----  {}
+[2020-02-05T15:47:46.330] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:47:46.330] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:47:46.331] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:47:46.459] [INFO] node_api - Body ----  {}
+[2020-02-05T15:47:46.461] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:47:46.462] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:47:46.464] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:52:13.531] [INFO] node_api - Body ----  {}
+[2020-02-05T15:52:13.531] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:52:13.532] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:52:13.533] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:52:14.053] [INFO] node_api - Body ----  {}
+[2020-02-05T15:52:14.054] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:52:14.056] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:52:14.057] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:52:22.842] [INFO] node_api - Body ----  {}
+[2020-02-05T15:52:22.844] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:52:22.845] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:52:22.846] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:52:53.979] [INFO] node_api - Body ----  {}
+[2020-02-05T15:52:53.979] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:52:53.980] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:52:53.981] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:52:55.892] [INFO] node_api - Body ----  {}
+[2020-02-05T15:52:55.892] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:52:55.892] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:52:55.893] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:53:19.705] [INFO] node_api - Body ----  {}
+[2020-02-05T15:53:19.705] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:53:19.706] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:53:19.715] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:53:21.729] [INFO] node_api - Body ----  {}
+[2020-02-05T15:53:21.730] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:53:21.730] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:53:21.732] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:54:16.855] [INFO] node_api - Body ----  {}
+[2020-02-05T15:54:16.855] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:54:16.855] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:54:16.857] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:54:18.308] [INFO] node_api - Body ----  {}
+[2020-02-05T15:54:18.309] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:54:18.309] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:54:18.310] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:54:45.775] [INFO] node_api - Body ----  {}
+[2020-02-05T15:54:45.776] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:54:45.776] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:54:45.777] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T15:54:46.027] [INFO] node_api - Body ----  {}
+[2020-02-05T15:54:46.027] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T15:54:46.027] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T15:54:46.033] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:01:13.695] [INFO] node_api - Body ----  {}
+[2020-02-05T16:01:13.695] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:01:13.695] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:01:13.696] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:01:14.570] [INFO] node_api - Body ----  {}
+[2020-02-05T16:01:14.571] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:01:14.571] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:01:14.572] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:01:42.665] [INFO] node_api - Body ----  {}
+[2020-02-05T16:01:42.666] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:01:42.666] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:01:42.667] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:02:10.037] [INFO] node_api - Body ----  {}
+[2020-02-05T16:02:10.037] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:02:10.038] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:02:10.040] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:02:11.089] [INFO] node_api - Body ----  {}
+[2020-02-05T16:02:11.089] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:02:11.089] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:02:11.090] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:02:18.476] [INFO] node_api - Body ----  {}
+[2020-02-05T16:02:18.476] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:02:18.476] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:02:18.477] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:02:21.286] [INFO] node_api - Body ----  {}
+[2020-02-05T16:02:21.287] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:02:21.287] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:02:21.288] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:02:47.604] [INFO] node_api - Body ----  {}
+[2020-02-05T16:02:47.604] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:02:47.604] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:02:47.605] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:02:49.138] [INFO] node_api - Body ----  {}
+[2020-02-05T16:02:49.138] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:02:49.139] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:02:49.140] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:03:04.913] [INFO] node_api - Body ----  {}
+[2020-02-05T16:03:04.914] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:03:04.914] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:03:04.917] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:03:05.870] [INFO] node_api - Body ----  {}
+[2020-02-05T16:03:05.870] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:03:05.871] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:03:05.872] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:07:15.628] [INFO] node_api - Body ----  {}
+[2020-02-05T16:07:15.628] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:07:15.628] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:07:15.629] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:07:16.774] [INFO] node_api - Body ----  {}
+[2020-02-05T16:07:16.775] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:07:16.775] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:07:16.776] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:07:42.765] [INFO] node_api - Body ----  {}
+[2020-02-05T16:07:42.765] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:07:42.765] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:07:42.766] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:07:43.414] [INFO] node_api - Body ----  {}
+[2020-02-05T16:07:43.419] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:07:43.420] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:07:43.424] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:09:16.960] [INFO] node_api - Body ----  {}
+[2020-02-05T16:09:16.960] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:09:16.961] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:09:16.961] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:09:18.705] [INFO] node_api - Body ----  {}
+[2020-02-05T16:09:18.705] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:09:18.706] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:09:18.706] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:09:33.322] [INFO] node_api - Body ----  {}
+[2020-02-05T16:09:33.323] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:09:33.323] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:09:33.325] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:09:35.064] [INFO] node_api - Body ----  {}
+[2020-02-05T16:09:35.065] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:09:35.065] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:09:35.069] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:10:21.722] [INFO] node_api - Body ----  {}
+[2020-02-05T16:10:21.722] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:10:21.722] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:10:21.723] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:10:23.282] [INFO] node_api - Body ----  {}
+[2020-02-05T16:10:23.282] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:10:23.282] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:10:23.283] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:11:01.440] [INFO] node_api - Body ----  {}
+[2020-02-05T16:11:01.440] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:11:01.440] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:11:01.441] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:11:02.739] [INFO] node_api - Body ----  {}
+[2020-02-05T16:11:02.741] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:11:02.741] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:11:02.742] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:11:43.523] [INFO] node_api - Body ----  {}
+[2020-02-05T16:11:43.524] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:11:43.524] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:11:43.525] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:11:45.359] [INFO] node_api - Body ----  {}
+[2020-02-05T16:11:45.359] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:11:45.359] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:11:45.360] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:12:15.623] [INFO] node_api - Body ----  {}
+[2020-02-05T16:12:15.624] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:12:15.628] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:12:15.629] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:12:15.753] [INFO] node_api - Body ----  {}
+[2020-02-05T16:12:15.761] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:12:15.763] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:12:15.772] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:13:44.879] [INFO] node_api - Body ----  {}
+[2020-02-05T16:13:44.879] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:13:44.880] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:13:44.881] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:13:47.700] [INFO] node_api - Body ----  {}
+[2020-02-05T16:13:47.703] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:13:47.703] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:13:47.704] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:16:07.251] [INFO] node_api - Body ----  {}
+[2020-02-05T16:16:07.251] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:16:07.252] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:16:07.253] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:16:08.536] [INFO] node_api - Body ----  {}
+[2020-02-05T16:16:08.537] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:16:08.537] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:16:08.538] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:16:26.941] [INFO] node_api - Body ----  {}
+[2020-02-05T16:16:26.942] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:16:26.942] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:16:26.944] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:16:28.145] [INFO] node_api - Body ----  {}
+[2020-02-05T16:16:28.146] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:16:28.146] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:16:28.147] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:20:34.597] [INFO] node_api - Body ----  {}
+[2020-02-05T16:20:34.599] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:20:34.599] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:20:34.601] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:20:35.442] [INFO] node_api - Body ----  {}
+[2020-02-05T16:20:35.445] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:20:35.446] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:20:35.447] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:20:54.159] [INFO] node_api - Body ----  {}
+[2020-02-05T16:20:54.159] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:20:54.159] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:20:54.160] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:20:55.351] [INFO] node_api - Body ----  {}
+[2020-02-05T16:20:55.351] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:20:55.351] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:20:55.352] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:24:51.954] [INFO] node_api - Body ----  {}
+[2020-02-05T16:24:51.954] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:24:51.955] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:24:51.956] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:24:52.692] [INFO] node_api - Body ----  {}
+[2020-02-05T16:24:52.692] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:24:52.692] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:24:52.693] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:27:34.114] [INFO] node_api - Body ----  {}
+[2020-02-05T16:27:34.120] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:27:34.120] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:27:34.121] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:27:35.076] [INFO] node_api - Body ----  {}
+[2020-02-05T16:27:35.076] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:27:35.077] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:27:35.078] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:28:25.103] [INFO] node_api - Body ----  {}
+[2020-02-05T16:28:25.103] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:28:25.104] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:28:25.106] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:28:27.833] [INFO] node_api - Body ----  {}
+[2020-02-05T16:28:27.833] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:28:27.833] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:28:27.834] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:31:09.504] [INFO] node_api - Body ----  {}
+[2020-02-05T16:31:09.504] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:31:09.504] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:31:09.511] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:31:11.538] [INFO] node_api - Body ----  {}
+[2020-02-05T16:31:11.539] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:31:11.539] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:31:11.539] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:31:33.132] [INFO] node_api - Body ----  {}
+[2020-02-05T16:31:33.132] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:31:33.132] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:31:33.136] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:31:35.080] [INFO] node_api - Body ----  {}
+[2020-02-05T16:31:35.081] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:31:35.081] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:31:35.082] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:32:07.149] [INFO] node_api - Body ----  {}
+[2020-02-05T16:32:07.149] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:32:07.150] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:32:07.151] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:32:08.249] [INFO] node_api - Body ----  {}
+[2020-02-05T16:32:08.250] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:32:08.250] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:32:08.251] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:33:43.337] [INFO] node_api - Body ----  {}
+[2020-02-05T16:33:43.337] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:33:43.338] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:33:43.339] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:37:41.777] [INFO] node_api - Body ----  {}
+[2020-02-05T16:37:41.778] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:37:41.778] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:37:41.779] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:38:07.271] [INFO] node_api - Body ----  {}
+[2020-02-05T16:38:07.272] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:38:07.272] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:38:07.273] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:38:57.122] [INFO] node_api - Body ----  {}
+[2020-02-05T16:38:57.122] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:38:57.123] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:38:57.128] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:41:16.122] [INFO] node_api - Body ----  {}
+[2020-02-05T16:41:16.122] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:41:16.122] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:41:16.124] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:41:30.728] [INFO] node_api - Body ----  {}
+[2020-02-05T16:41:30.730] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:41:30.731] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:41:30.732] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:41:43.841] [INFO] node_api - Body ----  {}
+[2020-02-05T16:41:43.841] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:41:43.841] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:41:43.842] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:42:26.085] [INFO] node_api - Body ----  {}
+[2020-02-05T16:42:26.086] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:42:26.086] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:42:26.090] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:42:35.159] [INFO] node_api - Body ----  {}
+[2020-02-05T16:42:35.161] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:42:35.162] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:42:35.162] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:53:01.196] [INFO] node_api - Body ----  {}
+[2020-02-05T16:53:01.196] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:53:01.197] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:53:01.198] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:53:22.568] [INFO] node_api - Body ----  {}
+[2020-02-05T16:53:22.569] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:53:22.569] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:53:22.570] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T16:56:38.639] [INFO] node_api - Body ----  {}
+[2020-02-05T16:56:38.639] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T16:56:38.639] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T16:56:38.640] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T17:07:19.894] [INFO] node_api - Body ----  {}
+[2020-02-05T17:07:19.895] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T17:07:19.895] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T17:07:19.896] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T17:07:40.001] [INFO] node_api - Body ----  {}
+[2020-02-05T17:07:40.001] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T17:07:40.001] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T17:07:40.002] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T17:29:30.608] [ERROR] node_api - Error ---  { error: relation "shoppingcentre" does not exist
+    at Connection.parseE (/media/rajotron/_my_drive/projects3/jwa/backend_server/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/media/rajotron/_my_drive/projects3/jwa/backend_server/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/media/rajotron/_my_drive/projects3/jwa/backend_server/node_modules/pg/lib/connection.js:129:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 106,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '15',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1160',
+  routine: 'parserOpenTable' }
+[2020-02-05T17:32:43.186] [ERROR] node_api - Error ---  { error: relation "shoppingcentre" does not exist
+    at Connection.parseE (/media/rajotron/_my_drive/projects3/jwa/backend_server/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/media/rajotron/_my_drive/projects3/jwa/backend_server/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/media/rajotron/_my_drive/projects3/jwa/backend_server/node_modules/pg/lib/connection.js:129:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 106,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '15',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1160',
+  routine: 'parserOpenTable' }
+[2020-02-05T17:33:11.391] [ERROR] node_api - Error ---  { error: relation "shoppingcentre" does not exist
+    at Connection.parseE (/media/rajotron/_my_drive/projects3/jwa/backend_server/node_modules/pg/lib/connection.js:614:13)
+    at Connection.parseMessage (/media/rajotron/_my_drive/projects3/jwa/backend_server/node_modules/pg/lib/connection.js:413:19)
+    at Socket.<anonymous> (/media/rajotron/_my_drive/projects3/jwa/backend_server/node_modules/pg/lib/connection.js:129:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 106,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '15',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1160',
+  routine: 'parserOpenTable' }
+[2020-02-05T17:33:35.805] [INFO] node_api - Body ----  {}
+[2020-02-05T17:33:35.806] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T17:33:35.806] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T17:33:35.808] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T17:33:35.922] [INFO] node_api - Tesing result --  [ { id: 1,
+    name: 'Pacific Mall',
+    address: 'New delhi',
+    created_at: 2020-02-05T11:45:13.985Z,
+    created_by: 'user1' } ]
+[2020-02-05T17:48:43.393] [INFO] node_api - Body ----  {}
+[2020-02-05T17:48:43.393] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T17:48:43.394] [INFO] node_api - Connection pool -  Pool {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: 
+   { Client: { [Function: Client] super_: [Object], Query: [Object] },
+     connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+     max: 10,
+     idleTimeoutMillis: 10000 },
+  log: [Function],
+  Client: 
+   { [Function: Client]
+     super_: 
+      { [Function: EventEmitter]
+        EventEmitter: [Circular],
+        usingDomains: false,
+        defaultMaxListeners: [Getter/Setter],
+        init: [Function],
+        listenerCount: [Function] },
+     Query: { [Function: Query] super_: [Object] } },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false }
+[2020-02-05T17:48:43.395] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T17:48:43.584] [INFO] node_api - Tesing result --  [ { id: 1,
+    name: 'Pacific Mall',
+    address: 'New delhi',
+    created_at: 2020-02-05T11:45:13.985Z,
+    created_by: 'user1' } ]
+[2020-02-05T22:16:45.624] [INFO] node_api - Body ----  {}
+[2020-02-05T22:16:45.626] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T22:16:45.628] [INFO] node_api - Connection pool -  Pool {
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: {
+    Client: [Function: Client] { Query: [Function: Query] },
+    connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+    max: 10,
+    idleTimeoutMillis: 10000
+  },
+  log: [Function],
+  Client: [Function: Client] { Query: [Function: Query] },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false
+}
+[2020-02-05T22:16:45.630] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T22:16:45.684] [INFO] node_api - Body ----  {}
+[2020-02-05T22:16:45.688] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T22:16:45.690] [INFO] node_api - Connection pool -  Pool {
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: {
+    Client: [Function: Client] { Query: [Function: Query] },
+    connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+    max: 10,
+    idleTimeoutMillis: 10000
+  },
+  log: [Function],
+  Client: [Function: Client] { Query: [Function: Query] },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false
+}
+[2020-02-05T22:16:45.690] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T22:51:48.028] [INFO] node_api - Body ----  {}
+[2020-02-05T22:51:48.028] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T22:51:48.028] [INFO] node_api - Connection pool -  Pool {
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: {
+    Client: [Function: Client] { Query: [Function: Query] },
+    connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+    max: 10,
+    idleTimeoutMillis: 10000
+  },
+  log: [Function],
+  Client: [Function: Client] { Query: [Function: Query] },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false
+}
+[2020-02-05T22:51:48.029] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T22:51:48.152] [INFO] node_api - Body ----  {}
+[2020-02-05T22:51:48.153] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T22:51:48.153] [INFO] node_api - Connection pool -  Pool {
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: {
+    Client: [Function: Client] { Query: [Function: Query] },
+    connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+    max: 10,
+    idleTimeoutMillis: 10000
+  },
+  log: [Function],
+  Client: [Function: Client] { Query: [Function: Query] },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false
+}
+[2020-02-05T22:51:48.153] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T22:53:40.369] [INFO] node_api - Body ----  {}
+[2020-02-05T22:53:40.370] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T22:53:40.370] [INFO] node_api - Connection pool -  Pool {
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: {
+    Client: [Function: Client] { Query: [Function: Query] },
+    connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+    max: 10,
+    idleTimeoutMillis: 10000
+  },
+  log: [Function],
+  Client: [Function: Client] { Query: [Function: Query] },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false
+}
+[2020-02-05T22:53:40.370] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T22:53:40.457] [INFO] node_api - Body ----  {}
+[2020-02-05T22:53:40.458] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T22:53:40.458] [INFO] node_api - Connection pool -  Pool {
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: {
+    Client: [Function: Client] { Query: [Function: Query] },
+    connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+    max: 10,
+    idleTimeoutMillis: 10000
+  },
+  log: [Function],
+  Client: [Function: Client] { Query: [Function: Query] },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false
+}
+[2020-02-05T22:53:40.458] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T23:54:01.429] [INFO] node_api - Tesing result --  [
+  {
+    id: 1,
+    name: 'Pacific Mall',
+    address: 'New Delhi',
+    created_at: 2020-02-05T16:46:06.937Z,
+    created_by: 'user1'
+  }
+]
+[2020-02-05T23:57:39.156] [INFO] node_api - Body ----  {}
+[2020-02-05T23:57:39.156] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T23:57:39.158] [INFO] node_api - Connection pool -  Pool {
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: {
+    Client: [Function: Client] { Query: [Function: Query] },
+    connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+    max: 10,
+    idleTimeoutMillis: 10000
+  },
+  log: [Function],
+  Client: [Function: Client] { Query: [Function: Query] },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false
+}
+[2020-02-05T23:57:39.161] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T23:59:09.995] [INFO] node_api - Body ----  {}
+[2020-02-05T23:59:09.996] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T23:59:09.996] [INFO] node_api - Connection pool -  Pool {
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: {
+    Client: [Function: Client] { Query: [Function: Query] },
+    connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+    max: 10,
+    idleTimeoutMillis: 10000
+  },
+  log: [Function],
+  Client: [Function: Client] { Query: [Function: Query] },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false
+}
+[2020-02-05T23:59:09.996] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
+[2020-02-05T23:59:10.335] [INFO] node_api - Body ----  {}
+[2020-02-05T23:59:10.335] [INFO] node_api - New connection string postgresql://postgres:postgres@localhost:5432/ims
+[2020-02-05T23:59:10.336] [INFO] node_api - Connection pool -  Pool {
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: {
+    Client: [Function: Client] { Query: [Function: Query] },
+    connectionString: 'postgresql://postgres:postgres@localhost:5432/ims',
+    max: 10,
+    idleTimeoutMillis: 10000
+  },
+  log: [Function],
+  Client: [Function: Client] { Query: [Function: Query] },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false
+}
+[2020-02-05T23:59:10.336] [INFO] node_api - Check datavbase exists -- select exists(SELECT datname FROM pg_catalog.pg_database WHERE lower(datname) = lower('ims'));
