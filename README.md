@@ -17,7 +17,7 @@ git clone https://github.com/rajotron/IMS.git
 #### Step 2
 Get into the project directory and install all packages listed in package.json file at root. 
 ``` 
-cd IMS 
+cd IMS/backend_server/ 
 ```
 ``` 
 npm install 
@@ -34,6 +34,7 @@ Access web application from this link http://localhost:9091/
 
 #### Run the tests
 ``` 
+cd IMS/backend_server/
 npm test 
 ```
 
