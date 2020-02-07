@@ -1,3 +1,5 @@
+/*Create shopping centre table*/
+
 CREATE TABLE shoppingcentre(
     id SERIAL PRIMARY KEY,
     name VARCHAR(250),
@@ -7,6 +9,8 @@ CREATE TABLE shoppingcentre(
     updated_at timestamp,
     updated_by VARCHAR(250)
 );
+
+/*Create assets table*/
 
 CREATE TABLE assets(
     asset_id SERIAL PRIMARY KEY,
@@ -21,6 +25,7 @@ CREATE TABLE assets(
     updated_by VARCHAR(250)
 );
 
+/*Create users table*/
 CREATE TABLE users(
     user_id SERIAL PRIMARY KEY,
     token VARCHAR(250),
@@ -28,6 +33,8 @@ CREATE TABLE users(
     password VARCHAR(250)
 );
 
+
+/* Examples to insert into each of the above mentioned table*/
 
 insert into users(token, username, password) values(MD5(random()::text), 'user1', 'user1');
 

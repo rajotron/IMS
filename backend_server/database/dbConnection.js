@@ -6,6 +6,7 @@ const {
     Client
 } = require('pg');
 
+/*Create connection pool with the postgres database it can also be made dynamic and is mentioned in the next comment*/
 var pool;
 const connectionString = 'postgresql://postgres:postgres@localhost:5432/postgres'
 if (pool != null) {
@@ -14,6 +15,9 @@ if (pool != null) {
 pool = new Pool({
     connectionString: connectionString,
 })
+
+
+/*Dynamic connection to the postgres database at the time when user reach the web app*/
 
 exports.createNewPool = (username, dbname, server, port, password) => {
     return new Promise((resolve, reject) => {
@@ -33,6 +37,7 @@ exports.createNewPool = (username, dbname, server, port, password) => {
 }
 
 
+/* Run query, using this function we just need to send our query string and the params with it*/
 
 exports.query = async (text, params) => {
     const start = Date.now()
