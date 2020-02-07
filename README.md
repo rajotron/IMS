@@ -32,6 +32,13 @@ Access web application from this link http://localhost:9091/
 
 ![Login page where everthing is gonna start](https://github.com/rajotron/IMS/blob/master/screenshots/login.png)
 
+#### Step 3
+Run the tests
+``` 
+npm test 
+```
+
+
 ### Structure of server
 ##### Structure includes following modules - 
   * Controllers
