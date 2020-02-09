@@ -1,0 +1,81 @@
+<div class="container" >
+<div class="row justify-content-center"  style="height: 100vh" >
+  <div class="col-12" > 
+    <div class="wrapper1">
+<h3 mat-dialog-title>Assets in Shopping Centre</h3>
+<h4>Name:<span class="red">{{data.name}}</span>, ID: <span class="red">{{data.id}}</span></h4>
+ <mat-table [dataSource]="dataSource" matSort >
+  <!-- asset_id: 1
+shoppingcentre_id: 1
+name: "Big Bazaar"
+dimension: "23x45x34"
+address: "Plot-9, LTF-3"
+status: "OFFLINE"
+created_at: "2020-02-06T07:07:09.485Z"
+created_by: "user1" -->
+
+          <ng-container matColumnDef="asset_id">
+            <mat-header-cell *matHeaderCellDef mat-sort-header > Id </mat-header-cell>
+            <mat-cell *matCellDef="let row" [style.color]="row.color" data-label="color"> {{row["asset_id"]}} </mat-cell>
+          </ng-container>
+          <ng-container matColumnDef="shoppingcentre_id">
+            <mat-header-cell *matHeaderCellDef mat-sort-header > shoppingcentre_id </mat-header-cell>
+            <mat-cell *matCellDef="let row" [style.color]="row.color" data-label="color"> {{row["shoppingcentre_id"]}} </mat-cell>
+          </ng-container>
+
+          <ng-container matColumnDef="name">
+            <mat-header-cell *matHeaderCellDef mat-sort-header > Name </mat-header-cell>
+            <mat-cell *matCellDef="let row" [style.color]="row.color" data-label="color"> {{row["name"]}}
+            </mat-cell>
+          </ng-container>
+
+          <ng-container matColumnDef="address">
+            <mat-header-cell *matHeaderCellDef mat-sort-header > address </mat-header-cell>
+            <mat-cell *matCellDef="let row" [style.color]="row.color" data-label="color">{{row["address"]}}
+            </mat-cell>
+          </ng-container>
+           <ng-container matColumnDef="dimension">
+            <mat-header-cell *matHeaderCellDef mat-sort-header > dimension </mat-header-cell>
+            <mat-cell *matCellDef="let row" [style.color]="row.color" data-label="color">{{row["dimension"]}}
+            </mat-cell>
+          </ng-container>
+           <ng-container matColumnDef="status">
+            <mat-header-cell *matHeaderCellDef mat-sort-header > status </mat-header-cell>
+            <mat-cell *matCellDef="let row" [style.color]="row.color" data-label="color">{{row["status"]}}
+            </mat-cell>
+          </ng-container>
+
+          <ng-container matColumnDef="created_at">
+            <mat-header-cell *matHeaderCellDef mat-sort-header >created_at</mat-header-cell>
+            <mat-cell *matCellDef="let row" data-label="created_at">{{row["created_at"]|date:'dd/MM/yyyy, h:mm a'}}</mat-cell>
+          </ng-container>
+
+          <ng-container matColumnDef="created_by">
+            <mat-header-cell *matHeaderCellDef mat-sort-header > created_by </mat-header-cell>
+            <mat-cell *matCellDef="let row" [style.color]="row.color" data-label="color"> {{row["created_by"]}}
+            </mat-cell>
+          </ng-container>
+          <ng-container matColumnDef="updated_at">
+            <mat-header-cell *matHeaderCellDef mat-sort-header >updated_at</mat-header-cell>
+            <mat-cell *matCellDef="let row" data-label="updated_at">{{row["updated_at"]|date:'dd/MM/yyyy, h:mm a'}}</mat-cell>
+          </ng-container>
+
+          <ng-container matColumnDef="updated_by">
+            <mat-header-cell *matHeaderCellDef mat-sort-header > updated_by </mat-header-cell>
+            <mat-cell *matCellDef="let row" [style.color]="row.color" data-label="color"> {{row["updated_by"]}}
+            </mat-cell>
+          </ng-container>
+
+          <ng-container matColumnDef="Action">
+            <mat-header-cell *matHeaderCellDef mat-sort-header > Action </mat-header-cell>
+            <mat-cell *matCellDef="let row" [style.color]="row.color" data-label="color"> <button mat-raised-button color="primary" (click)='openDialog(row)' class="mr-1">EDIT</button> </mat-cell>
+          </ng-container>
+
+          <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+          <mat-row *matRowDef="let row; columns: displayedColumns;">
+          </mat-row>
+        </mat-table>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Close</button>
+</div>
+</div></div></div></div>

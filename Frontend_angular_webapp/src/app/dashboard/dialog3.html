@@ -1,0 +1,38 @@
+<div class="container" >
+<div class="row justify-content-center"  style="height: 100vh" >
+  <div class="col-6" > 
+    <div class="wrapper1">
+<h3 mat-dialog-title>Update Asset Info</h3>
+<h4>Name:<span class="red">{{data.name}}</span>, ID: <span class="red">{{data.asset_id}}</span></h4>
+<div mat-dialog-content>
+  <p class="labels">Name</p>
+  <mat-form-field  class="formField">
+    <input matInput [(ngModel)]="data.name">
+  </mat-form-field>
+  <p class="labels">shoppingcentre_id</p>
+  <mat-form-field class="formField">
+    <input matInput [(ngModel)]="data.shoppingcentre_id">
+  </mat-form-field>
+  <p class="labels">dimension</p>
+  <mat-form-field class="formField">
+    <input matInput [(ngModel)]="data.dimension">
+  </mat-form-field>
+  <p class="labels">address</p>
+  <mat-form-field class="formField">
+    <input matInput [(ngModel)]="data.address">
+  </mat-form-field>
+  <p class="labels">status</p>
+  <mat-form-field class="status">
+    <input matInput [(ngModel)]="data.status">
+  </mat-form-field>
+  <!-- <mat-form-field class="formField">
+    <input matInput [(ngModel)]="data.created_by">
+  </mat-form-field> -->
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Close</button>
+  <button mat-button (click)="update()" cdkFocusInitial>Update</button>
+</div>
+</div></div></div></div>
+
+<!-- asset_id", "shoppingcentre_id", "name", "dimension", "address", "status", "created_at", "created_by", "Action -->

@@ -1,0 +1,25 @@
+<div class="container" >
+<div class="row justify-content-center"  style="height: 100vh" >
+  <div class="col-12" > 
+    <div class="wrapper1">
+<h3 mat-dialog-title>Update Shopping Centre</h3>
+<h4>Name:<span class="red">{{data.name}}</span>, ID: <span class="red">{{data.id}}</span></h4>
+<div mat-dialog-content>
+  <p class="labels">Name</p>
+  <mat-form-field  class="formField">
+    <input matInput [(ngModel)]="data.name">
+  </mat-form-field>
+  <p class="labels">Address</p>
+  <mat-form-field class="formField">
+    <input matInput [(ngModel)]="data.address">
+  </mat-form-field>
+  <p class="labels">created_by</p>
+  <mat-form-field class="formField">
+    <input matInput [(ngModel)]="data.created_by">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Close</button>
+  <button mat-button (click)="update()" cdkFocusInitial>Update</button>
+</div>
+</div></div></div></div>
